@@ -13,8 +13,6 @@ function NavBar(){
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/cars"  onClick={() => console.log('Link Clicked')}>Cars</Nav.Link>
-            <Nav.Link as={Link} to="/About">About</Nav.Link>
-            <Nav.Link as={Link} to="/Support">Support</Nav.Link>
             <Nav.Link as={Link} to="/register">Register</Nav.Link>
             <Nav.Link as={Link} to="/signin">Login</Nav.Link>
             <Nav.Link as={Link} to="/user">User</Nav.Link>         
